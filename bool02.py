@@ -8,6 +8,6 @@ def main(a):
     """
     # Write your code here
     
-    return a
+    return a == 7
 
-print(bool(main(7)))
+print(bool(main(1)))
