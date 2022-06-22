@@ -1,3 +1,6 @@
+from re import A
+
+
 def main(a):
     """Check the natural number.Natural numbers are numbers used in counting.
     Args:
@@ -6,4 +9,8 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    b=int(a)
+
+    return a>0 and b==a
+
+print(main(1))
